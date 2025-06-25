@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "graphql": "^16.11.0",
+    "uuid": "^11.1.0",
+    "zod": "^3.25.67"
+  },
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts",
+    "start": "ts-node src/index.ts",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/uuid": "^10.0.0",
+    "eslint": "^9.29.0",
+    "jest": "^30.0.3",
+    "prettier": "^3.6.1",
+    "ts-jest": "^29.4.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
+}
